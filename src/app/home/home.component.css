@@ -1,0 +1,124 @@
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  
+
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     
+  }
+
+  .carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    min-height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  /* @media (max-width: 600px) {
+      carousel-caption 
+     
+    }  
+    */
+  
+  /* @media (max-width: 600px) {
+    .carousel-caption ,  .row{
+      display: none;  
+  }
+} */
+  #a1{
+    font-family: cursive;
+    font-size:30px;
+    text-align: center ;
+    /* padding-right: 900px; */
+    color: rgb(134, 17, 81);
+    
+    text-shadow: 2px 2px 9px red;}
+    li{display: inline-block;}
+
+    .fa {  
+      padding: 20px;  
+    text-align: center;  
+      margin: 5px 2px;  
+      font-size: 30px;  
+      width: 50px;  
+    }  
+    .fa-facebook {  
+      background: #3B5998;  
+      color: white;  
+    }  
+    .fa-twitter {  
+      background: #55ACEE;  
+      color: white;  
+    }  
+    .fa-pinterest {  
+      background: #cb2027;  
+      color: white;  
+    }  
+    .fa-linkedin {  
+      background: #007bb5;  
+      color: white;  
+    }  
+    .fa-instagram {  
+      background: #125688;  
+      color: white;  
+    }  
+    .fa-youtube {  
+      background: #bb0000;  
+      color: white;  
+    }  
+    .fa-google {  
+      background: #dd4b39;  
+      color: white;  
+    }  
+    .fa-snapchat-ghost {  
+      background: #fffc00;  
+      color: white;  
+      text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+    }  
+    .fa-skype {  
+      background: #00aff0;  
+      color: white;  
+    }  
+    .fa:hover {  
+        opacity: 0.9;  
+    }  
+    #w1
+    {
+
+      /* width: 100px;
+      height: 100px; */
+      background-color:aqua;
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes example {
+      /* 0%   {background-color: red;}
+      50%  {background-color: rgb(168, 168, 235);} */
+      100% {background-color: rgb(152, 190, 152);}
+    }
+    .pagination {
+      display: inline-block;
+    }
+    
+    .pagination a {
+      color: black;
+      float: left;
+      padding: 8px 16px;
+      text-decoration: none;
+      transition: background-color .3s;
+      border: 1px solid #ddd;
+    }
+    
+    .pagination a.active {
+      background-color: #4CAF50;
+      color: white;
+      border: 1px solid #4CAF50;
+    }
+    
+    .pagination a:hover:not(.active) {background-color: #ddd;}
+   
+    
+   

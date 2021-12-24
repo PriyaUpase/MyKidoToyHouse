@@ -1,0 +1,73 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  #iframe{
+
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+  }
+  
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+  }
+  
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 590px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+#a1{
+font-family: cursive;
+font-size: 20px;
+text-align: center ;
+
+text-shadow: 2px 2px 9px red;}
+
+/* input.ng-invalid{background-color:aquamarine;}
+input.ng-valid{background-color:indianred;} */
+
+.content {
+	display: flex;
+	margin: 32px auto;
+	padding: 0 16px;
+	max-width: 960px;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 16px;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+}
+
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
